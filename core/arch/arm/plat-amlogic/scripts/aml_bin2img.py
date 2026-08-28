@@ -6,6 +6,10 @@
 # Derived from plat-stm32mp1/scripts/stm32image.py
 #
 
+import lib.clients
+import lib.http_session
+import lib.transport
+import lib.session
 import argparse
 import struct
 import mmap
